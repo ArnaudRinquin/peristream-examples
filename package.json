@@ -1,0 +1,22 @@
+{
+  "name": "peristream-examples",
+  "version": "0.0.0",
+  "description": "Peristream library examples",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "browserify browser-example.js -o browser/script.js",
+    "start": "open http://127.0.0.1:8080 & static browser"
+  },
+  "keywords": [
+    "peristream",
+    "periscopetv",
+    "periscope"
+  ],
+  "author": "Arnaud Rinquin",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^11.2.0",
+    "node-static": "^0.7.7",
+    "peristream": "0.1.4"
+  }
+}
